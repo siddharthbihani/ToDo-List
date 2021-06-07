@@ -1,14 +1,17 @@
 import React from "react";
 import {HourglassOutlined} from '@ant-design/icons';
 import '../styles.css';
+import {Layout} from 'antd';
 
-function Header(){
-    return <header>
+const {Header} = Layout;
+
+function header(){
+    return <Header>
         <h1>
             <HourglassOutlined />
             To Do List
         </h1>
-    </header>;
+    </Header>;
 }
 
-export default Header;
+export default header;

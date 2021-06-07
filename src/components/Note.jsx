@@ -1,6 +1,6 @@
 import React from "react";
 import {DeleteOutlined} from '@ant-design/icons';
-import {Button} from 'antd';
+import {Button, Card} from 'antd';
 import '../styles.css';
 
 function Note(props) {
@@ -10,13 +10,13 @@ function Note(props) {
   }
 
   return (
-    <div className="note">
+    <Card className="note" bordered={false}>
       <h1>{props.title}</h1>
       <p>{props.description}</p>
       <Button onClick={handleClick}>
         <DeleteOutlined />
       </Button>
-    </div>
+    </Card>
   );
 }
 

@@ -1,12 +1,15 @@
 import React from "react";
 import '../styles.css';
+import {Layout} from 'antd';
 
-function Footer() {
+const {Footer} = Layout;
+
+function footer() {
   return (
-    <footer>
+    <Footer>
       <p>Made with ❤ by Siddharth Bihani</p>
-    </footer>
+    </Footer>
   );
 }
 
-export default Footer;
+export default footer;
