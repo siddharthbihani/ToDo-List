@@ -1,6 +1,7 @@
 import React from "react";
 import {DeleteOutlined} from '@ant-design/icons';
 import {Button} from 'antd';
+import '../styles.css';
 
 function Note(props) {
 

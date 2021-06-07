@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {PlusOutlined} from '@ant-design/icons';
 import { Button, Input, Form } from "antd";
+import '../styles.css';
 
 const { TextArea } = Input;
 

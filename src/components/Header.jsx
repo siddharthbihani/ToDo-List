@@ -1,5 +1,6 @@
 import React from "react";
 import {HourglassOutlined} from '@ant-design/icons';
+import '../styles.css';
 
 function Header(){
     return <header>
